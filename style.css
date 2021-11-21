@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bg-image {
+    background: url("./assets/backgrounds/c_image.jpg")
+}
