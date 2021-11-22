@@ -4,6 +4,7 @@ Delani-Studio
 This project aims at showing all about what is in Delani-Studios.
 ### Authors Information
 Tracy Mbone
+
 Software Developer
 ## Setup Instruction
 This project is also found in other entertainment media.
