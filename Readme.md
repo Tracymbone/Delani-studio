@@ -6,7 +6,7 @@ This project aims at showing all about what is in Delani-Studios.
 Tracy Mbone
 Software Developer
 ## Setup Instruction
-This project is also found in other entertainment medias.
+This project is also found in other entertainment media.
 ## Technologies Used
 HTML
 CSS
