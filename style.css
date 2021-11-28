@@ -6,3 +6,7 @@
 #bg-image {
     background: url("./assets/backgrounds/c_image.jpg")
 }
+
+#designtext {
+    display: none;
+}
