@@ -7,6 +7,34 @@
     background: url("./assets/backgrounds/c_image.jpg")
 }
 
-#designtext {
+#designtext,
+#developmenttext,
+#projectmanagementtext {
     display: none;
+}
+#row img, .blankdivs {
+    width: 250px;
+    height: 250px;
+    
+}
+.blankdivs {
+    /* background-color: black; */
+    position: absolute;
+    top: 0;
+    transform: translateX(25px);
+
+}
+#row {
+    position: relative;
+}
+/* .blankdivs:hover {
+    background-color: rgba(0,0,0, 0.5);
+} */
+.assets{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid transparent;
+    color: transparent;
+    font-weight: bold;
 }
