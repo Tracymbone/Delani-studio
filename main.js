@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 
  
-  $(document).ready(function(){
+  $(document).ready(function(){ 
     $(".blankdivs").hover(function(){
       $(this).css("background-color", "rgba(0,0,0,0.5)");
       $(".assets").css("color","white");
