@@ -2,39 +2,56 @@
     margin: 0;
     padding: 0;
 }
-
 #bg-image {
     background: url("./assets/backgrounds/c_image.jpg")
 }
-
-#designtext,
-#developmenttext,
-#projectmanagementtext {
+#designtext,#developmenttext,#projectmanagementtext {
     display: none;
 }
-#row img, .blankdivs {
+#row img, .blankdivs1,.blankdivs2,.blankdivs3,.blankdivs4,.blankdivs5,.blankdivs6,.blankdivs7,.blankdivs8{
     width: 250px;
-    height: 250px;
-    
+    height: 250px; 
 }
-.blankdivs {
-    /* background-color: black; */
+.blankdivs1,.blankdivs2,.blankdivs3,.blankdivs4,.blankdivs5,.blankdivs6,.blankdivs7,.blankdivs8 {
     position: absolute;
     top: 0;
-    transform: translateX(25px);
-
+    transform: translateX(30px);
 }
 #row {
     position: relative;
 }
-/* .blankdivs:hover {
-    background-color: rgba(0,0,0, 0.5);
-} */
-.assets{
-    width: 200px;
-    height: 200px;
+#assets8, #assets1, #assets2, #assets3, #assets4, #assets5, #assets6, #assets7{
+    width: 230px;
+    height: 230px;
     margin: 10px;
-    border: 2px solid transparent;
-    color: transparent;
+    border: 2px solid white;
+    color: white !important;
     font-weight: bold;
+    display: none;
+}
+#contactforms{
+    background-image: url(assets/backgrounds/c_image.jpg);
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#forms{
+    /* text-align: center; */
+    margin-left: 150px;
+}
+#names,#emails{
+    width: 400px;
+    background-color: inherit;
+    border-radius: 0px !important;
+}
+#mesasages{
+    width: 800px;
+    background-color: inherit;
+    border-radius: 0px !important;
+}
+#forms::placeholder{
+    color: #FFFFFF;
+}
+.flexeddivs{
+    display: flex;
 }
